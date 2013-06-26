@@ -1,12 +1,12 @@
-Hacking on Code in the ``repoze`` SVN Repository
-================================================
+Hacking on Repoze Components
+============================
 
 .. _coding-standards:
 
 Coding Standards
 ----------------
 
-As a general rule, projects in the ``repoze`` repository abide by the
+As a general rule, projects in the ``repoze`` repositories abide by the
 following standards:
 
 - `PEP 8 coding style <http://www.python.org/dev/peps/pep-0008/>`_. In
@@ -108,6 +108,11 @@ bandwidth, having this clone allows the developer a lot of flexibility and
 freedom:  she can hack, make commits, etc., to her local clone without
 needing network access, or even permission to write back to the source server! 
 
+.. note::
+
+   Actively-supported Repoze projects are now hosted on Github under the
+   `Repoze organization <https://github.com/organizations/repoze>`_
+
 
 .. _tool_specific:
 
@@ -128,4 +133,3 @@ changes back.
    HACKING-bzr
    HACKING-hg
    HACKING-git
-
