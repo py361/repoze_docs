@@ -1,32 +1,14 @@
-Working with Git
-================
+Working with Git against the Subversion Repository
+==================================================
+
+.. warning::
+
+   These instructions are only valid for Repoze components which have
+   not been migrated to Github.
 
 .. todo:
 
    Add notes on general Git info, links to docs, etc.
-
-.. _branching-git:
-
-How-to: Branch using the Git mirror
------------------------------------
-
-The Repoze project hosts a Git mirror of the Repoze SVN repository:
-
-  http://git.repoze.org/
-
-The mirror is updated periodically as commits are made to the SVN
-repository.  You may use this mirror to obtain a Git checkout
-directly, for example:
-
-.. code-block:: sh
-
-   $ git clone http://git.repoze.org/chameleon/.git
-
-.. note::
-
-   The ``.git`` in the URL follows the slash:  this is an odditiy
-   of the current mirroring strategy, and may be subject to change.
-
 
 .. _branching-git-svn:
 
@@ -130,7 +112,7 @@ an account on ``example.com``, where the contents of your home directory's
    $ git --bare update-server-info
    $ mv hooks/post-update.example hooks/post-update
    $ cd ..
-   $ rsync -avz repoze.who-samle_2.0.git \
+   $ rsync -avz repoze.who-saml_2.0.git \
       example.com:/home/<youraccount>/htdocs/
 
 You can then use http://example.com/~youraccount/repoze.who-saml_2.0.git

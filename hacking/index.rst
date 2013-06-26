@@ -136,4 +136,4 @@ Repoze repository.
    :maxdepth: 2
 
    svn
-   git
+   git_w_svn
