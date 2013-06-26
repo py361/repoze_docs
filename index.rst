@@ -111,7 +111,7 @@ Contents:
 
    components
    history
-   hacking
+   hacking/index
 
 Indices and tables
 ==================

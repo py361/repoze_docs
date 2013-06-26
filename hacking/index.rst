@@ -119,17 +119,21 @@ needing network access, or even permission to write back to the source server!
 Using Specific VCS Tools with Repoze Projects
 =============================================
 
-Different developers find the different tools "fit their brains."  Although
-the Repoze developers keep the "main" branches of their projects in a
-Subversion repository, they encourage contributions from anyone, regardless
-of which tool they have chosen.  The following documents outline how
-to hack on Repoze code using the four major tools, and how to contribute
-changes back.
+For the actively maintained components maintained on Github, use the
+"normal" git / Github workflow:
+
+- Fork the repository.
+
+- Hack on a clone of your fork in a branch.
+
+- When ready, push your branch and submit a pull request.
+
+We advise that you *not* hack on the ``master`` branch of your fork,
+so that you can sync more easily as changes are pushed to the upstream
+Repoze repository.
 
 .. toctree::
    :maxdepth: 2
 
-   HACKING-svn
-   HACKING-bzr
-   HACKING-hg
-   HACKING-git
+   svn
+   git
