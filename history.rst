@@ -1,5 +1,5 @@
-An Overview of the Repoze Project
-=================================
+History of the Repoze Project
+=============================
 
 Early Developments
 ------------------
@@ -70,4 +70,3 @@ all the components produced so far by the Repoze project.
 
 See `svn.repoze.org <http://svn.repoze.org>`_ for all the source code
 produced by the Repoze project.
-

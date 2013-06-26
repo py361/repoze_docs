@@ -1,12 +1,13 @@
 The Repoze Project
 ==================
 
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   overview
+   history
    HACKING
 
 Indices and tables
