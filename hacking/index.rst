@@ -96,7 +96,7 @@ For an example of this layout, see http://svn.repoze.org/template/trunk/ .
 .. _dvcs-overview:
 
 Distributed Version Control Systems
-===================================
+-----------------------------------
 
 Under Subversion, the version repository is kept on a central server:
 each developer has a working subset checked out from that server onto
@@ -117,10 +117,10 @@ needing network access, or even permission to write back to the source server!
 .. _tool_specific:
 
 Using Specific VCS Tools with Repoze Projects
-=============================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For the actively maintained components maintained on Github, use the
-"normal" git / Github workflow:
+"normal" git / Github workflow, i.e.:
 
 - Fork the repository.
 
