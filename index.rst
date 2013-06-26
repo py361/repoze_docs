@@ -109,6 +109,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   components
    history
    hacking
 
