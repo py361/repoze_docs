@@ -110,7 +110,7 @@ Contents:
    :maxdepth: 2
 
    history
-   HACKING
+   hacking
 
 Indices and tables
 ==================
