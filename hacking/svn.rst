@@ -1,6 +1,11 @@
 Working with Subversion
 =======================
 
+.. warning::
+
+   These instructions are only valid for Repoze components which have
+   not been migrated to Github.
+
 .. _read-only-subversion-checkout:
 
 How-to: Get a read-only Subversion checkout
@@ -127,10 +132,27 @@ How-to: Get a writable Subversion checkout
 ------------------------------------------
 
 The Repoze project grants write access to the Subversion repository to
-developers who are active with the project.  If you have completed the
-`process for obtaining commit access
-<http://repoze.org/contributing.html>`_, you can get a writable
-checkout over SSH:
+developers who are active with the project.  To obtain write access to the
+Repoze subversion repository, you must sign a contributor's agreement.
+This agreement is available in two varieties:
+
+- `Form for electronic signature <http://repoze.org/signable.txt>`_
+  Instructions for signing and remitting are included in the agreement.
+
+- `Form for physical signature <http://repoze.org/contributor.pdf>`_
+  A physically signed agreement should be mailed to the address below or
+  faxed to (United States) 540 479 1706
+
+.. code-block:: text
+
+    Agendaless Consulting, Inc
+    20 Pawnee Drive
+    Fredericksburg, VA 22401
+    U.S.A.
+
+Once you have submitted the form, a core developer will respond in e-mail
+requesting your SSH public key.  Once that key is uploaded, you can make
+a writable checkout from Subversion:
 
 .. code-block:: sh
 
