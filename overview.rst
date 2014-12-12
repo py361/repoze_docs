@@ -36,24 +36,22 @@ used as necessary in non-Zope contexts.
 Software Requirements and Limitations
 -------------------------------------
 
-- The packages in the 'repoze.' namespace require
-  "setuptools":http://peak.telecommunity.com/DevCenter/setuptools
+- The packages in the ``repoze.`` namespace require
+  `setuptools <https://bitbucket.org/pypa/setuptools/>`_
   for installation.
 
-- None of the 'repoze.*' software has been tested under any version
+- None of the ``repoze.*`` software has been tested under any version
   of Windows.  It has only been tested under UNIX variants (Linux
   and Mac OS X at the time of this writing).
 
 Technology Dependencies
 -----------------------
 
-The Repoze components are heavily dependent on Ian Bicking's
-`Paste <http://www.pythonpaste.org>`_, Phillip Eby's `setuptools
-<http://peak.telecommunity.com/DevCenter/setuptools>`_
-and of course the `WSGI specification
-<http://www.python.org/dev/peps/pep-0333/>`_ also
-written by Phillip Eby.  Repoze reimplements and reuses some
-technologies originated within `Zope <http://www.zope.org/>`_.
+Many Repoze components depend on `Paste <http://www.pythonpaste.org>`_,
+as well as `setuptools <https://bitbucket.org/pypa/setuptools/>`_
+and the `WSGI specification <http://www.python.org/dev/peps/pep-0333/>`_.
+Repoze reimplements and reuses some technologies originated within
+`Zope <http://www.zope.org/>`_.
 
 Licensing
 ---------
@@ -67,30 +65,43 @@ Some non-original parts of Repoze are licensed under the `ZPL
 Resources
 ---------
 
+- Github organization: https://github.com/repoze/
+
 - Mailing lists: http://lists.repoze.org/
 
 - Blog: http://blog.repoze.org/
 
-- Repoze bug tracker: http://bugs.repoze.org/
+- IRC channel: irc://irc.freenode.net/#repoze
+
+Legacy Resources
+----------------
 
 - Subversion repository (via ViewCVS): http://www.repoze.org/viewcvs/
 
 - Subversion repository (via http): http://svn.repoze.org/
 
+.. note::
+   Currently-maintained packages have their repositories on Github under the
+   `repoze organiztion <https://github.com/repoze/>`_.
+
+- (Old) Repoze bug tracker: http://bugs.repoze.org/.
+
+.. note::
+   Currently-maintained packages have their issue trackers located with
+   their repositories on Github.
+
 - Repoze Python package repositories: http://dist.repoze.org/
 
-- IRC channel: irc://irc.freenode.net/#repoze
+.. note::
+   The packages on ``dist.repoze.org`` were added to deal with some
+   no-longer-relevant issues on the `PyPI <http://pypi.python.org/pypi>`_
+   index.  They are no longer being updated.
 
 Contributing
 -------------
 
-Patches may be sent to the `repoze-dev maillist
-<http://lists.repoze.org/mailman/listinfo/repoze-dev>`_ or
-put into the `bug tracking system <http://bugs.repoze.org/>`_.
-Patches sent to the list may be lost, so putting them in the bug
-tracking system is better.
+The preferred mechanism for contributons is via pull requests on the
+project's Github repository.
 
-To obtain write access to the Repoze version control system, you
-will be required to sign a `contributor's agreement
-<http://repoze.org/contributing.html>`_.
-
+To obtain write access to any oft, you will be required to sign a
+`contributor's agreement <http://repoze.org/contributing.html>`_.
