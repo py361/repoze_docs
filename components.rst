@@ -7,6 +7,17 @@ active maintenance.
 WSGI Middleware
 ---------------
 
+- ``repoze.who``
+
+  Identification and authentication framework for arbitrary WSGI applications.
+  Can be used as WSGI middleware, or as a library within application code.
+  It is inspired by Zope 2's Pluggable Authentication Service
+  (PAS) but it is not dependent on Zope in any way.
+
+  Docs:  http://repozewho.rtfd.org/
+
+  Github: https://github.com/repoze/repoze.who
+
 - ``repoze.tm2``
 
   WSGI middleware that implements a transaction policy.  It uses the
@@ -19,6 +30,8 @@ WSGI Middleware
   hardcoded in Zope's publisher.  ``repoze.tm2`` is useful in any
   web application that requires transactions.
 
+  Docs:  http://repozetm2.rtfd.org/
+
   Github:  https://github.com/repoze/repoze.tm2
 
 - ``repoze.retry``
@@ -28,6 +41,8 @@ WSGI Middleware
   (e.g., ZODB's ``ConflictError``, or the equivalent PostgreSql
   "repeatable read" error).  This behavior used to be hardcoded in
   Zope's publisher.
+
+  Docs:  http://repozeretry.rtfd.org/
 
   Github:  https://github.com/repoze/repoze.retry
 
@@ -39,14 +54,18 @@ WSGI Middleware
 
   Github: https://github.com/repoze/repoze.profile
 
-- ``repoze.who``
+- ``repoze.debug``
 
-  Identification and authentication framework for arbitrary WSGI applications.
-  Can be used as WSGI middleware, or as a library within application code.
-  It is inspired by Zope 2's Pluggable Authentication Service
-  (PAS) but it is not dependent on Zope in any way.
+  Middleware which can help with in-production forensic debugging.
 
-  Github: https://github.com/repoze/repoze.who
+  Github: https://github.com/repoze/repoze.debug
+
+- ``repoze.zodbconn``
+
+  Library which manages ZODB databases and WSGI middleware which
+  makes a ZODB connection available to downstream applications.
+
+  Github: https://github.com/repoze/repoze.zodbconn
 
 - ``repoze.vhm``
 
@@ -65,19 +84,6 @@ WSGI Middleware
   for browsing limited exception history.
 
   Github: https://github.com/repoze/repoze.errorlog
-
-- ``repoze.zodbconn``
-
-  Library which manages ZODB databases and WSGI middleware which
-  makes a ZODB connection available to downstream applications.
-
-  Github: https://github.com/repoze/repoze.zodbconn
-
-- ``repoze.debug``
-
-  Middleware which can help with in-production forensic debugging.
-
-  Github: https://github.com/repoze/repoze.debug
 
 Libraries
 ---------
